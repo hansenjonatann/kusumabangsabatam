@@ -1,0 +1,72 @@
+:root {
+  --primary--: #42438f;
+}
+
+.bg-primary {
+  background-color: var(--primary--) !important;
+}
+
+.banner {
+  width: 100%;
+  background-color: var(--primary--);
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-subheading {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.banner-cta-btn {
+  background: white;
+  color: var(--primary--);
+  font-weight: bold;
+  border: 0;
+  padding: 10px 8px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.banner-cta-btn:hover {
+  opacity: 0.3;
+}
+
+#fasilitas {
+  margin-top: 10px;
+}
+
+.fasilitas-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--primary--);
+  font-weight: bold;
+}
+
+.fasilitas-subheading {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.brand-title {
+  color: var(--primary--);
+  font-weight: bold;
+}
+
+.fasilitas-wrapper {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  
+}
